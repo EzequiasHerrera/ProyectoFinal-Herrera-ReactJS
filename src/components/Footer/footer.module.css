@@ -1,0 +1,26 @@
+.container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.containerTextIcon {
+  font-weight: bold;
+  display: flex;
+  color: #551A8B;
+}
+
+.element {
+  margin: 4px;
+}

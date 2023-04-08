@@ -1,0 +1,18 @@
+.logo {
+  width: 40px;
+  will-change: filter;
+  transition: filter 300ms;
+  padding-bottom: 3px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 0.3em hsl(0, 0%, 100%));
+}
+
+.logoTexto {
+  color: #551A8B;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}

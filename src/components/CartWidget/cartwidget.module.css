@@ -1,0 +1,16 @@
+.cartContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  transition: filter 150ms;
+
+  background-color: azure;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+}
+
+.cartContainer:hover {
+  filter: drop-shadow(0 0 0.2em hsl(0, 0%, 100%));
+}

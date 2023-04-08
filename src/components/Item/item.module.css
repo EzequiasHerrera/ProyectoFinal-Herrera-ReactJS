@@ -1,0 +1,35 @@
+.itemContainer {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+}
+
+.itemImg {
+  position: relative;
+  width: 50%;
+  padding: 15px;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.price {
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.btnDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
